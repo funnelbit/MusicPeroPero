@@ -7,7 +7,7 @@ MusicPeroPero
     - IRCで今聴いている音楽のタイトルを垂れ流します
     - IRCでiTunesをリモートコントロールできます
 - 使い方
-    - `まず，MusicPeroPero/Setting.pm`にIRCに接続するための設定を書いて下さい．
+    - まず，`MusicPeroPero/Setting.pm`にIRCに接続するための設定を書いて下さい．
         - irc_user_name => '', # 自分の名前入れてください
         - irc_address   => '', # 接続するサーバ入れてください
         - irc_port      => '', # 接続に使うポート入れてください
@@ -29,4 +29,4 @@ MusicPeroPero
         - ユーザ名.kanna .....指定したユーザのPCに谷川柑菜を表示させます
         - ユーザ名.vi ........指定したユーザのPCでviを起動します
 
-    - 例えば，iTunes-experoperoというユーザがいたら，`experopero.destory`とすると，experoperoの耳にダメージを与えます．
+    - 例えば，`iTunes-experopero`というユーザがいたら，`experopero.destory`(iTunes-はナシでおｋ)とすると，experoperoの耳にダメージを与えます．
